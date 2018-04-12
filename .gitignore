@@ -1,2 +1,48 @@
-*.class
-*.log
+# IntelliJ
+.idea/
+*.iml
+*.iws
+build/
+
+# Spark artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+*.parquet
+
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+# Node Modules
+node_modules/
+
+# MacOS
+.DS_Store
+
+# Gradle/Maven
+target/
+.gradle/
+*.versionsBackup
+
+# General
+*~
+
+out/
+
+*/ssh_config
+
+data/
+georgetown/venv
+venv
+results/
+*/__pycache__
